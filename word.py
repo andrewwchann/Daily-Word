@@ -13,4 +13,4 @@ day = today.day
 # Get the word, translation, and pronunciation for the current day
 word = sheet.cell(row=day, column=1).value
 translation = sheet.cell(row=day, column=2).value
-# pronunciation = sheet.cell(row=day, column=3).value
+pronunciation = sheet.cell(row=day, column=3).value
