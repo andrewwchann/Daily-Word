@@ -1,5 +1,4 @@
 from openpyxl import load_workbook
-from flask import Flask, render_template
 import datetime
 
 # Load the Excel file
