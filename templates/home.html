@@ -9,15 +9,18 @@
     <title>Word</title>
     <!-- Internal CSS Design -->
     <style>
+
         h1 {
-            color: black;
-            font-family: Arial;
+            color: white;
+            font-family: Gotham Rounded, 'Times New Roman', Times, serif;
+            font-size: 250%;
+            /* font-weight: normal; */
         }
 
         p {
-            color: black;
-            font-family: Arial;
-            font-size: 200%;
+            color: white;
+            font-family: Gotham Rounded, 'Times New Roman', Times, serif;
+            font-size: 250%;
         }
 
         #main-content {
@@ -25,6 +28,9 @@
             margin: auto;
             width: 30%;
             text-align: center;
+        }
+        body {
+            background: linear-gradient(to right, #2a2a2a, #2a2a2a);
         }
     </style>
 </head>
@@ -35,9 +41,10 @@
         <div>
             <h1>Word of The Day!</h1>
         </div>
-        <h1>{{ word }}</h1>
+        <p>Word: {{ word }}</p>
         <p>Translation: {{ translation }}</p>
         <p>Pronunciation: {{ pronunciation}}</p>
+        <p>{{time_now}}</p>
     </div>
 </body>
 
